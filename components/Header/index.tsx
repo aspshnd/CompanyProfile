@@ -51,27 +51,16 @@ const Header = () => {
         <div className="container">
           <div className="relative -mx-4 flex items-center justify-between">
             <div className="w-60 max-w-full px-4 xl:mr-12">
-              <Link
-                href="/"
-                className={`header-logo block w-full ${
-                  sticky ? "py-5 lg:py-2" : "py-8"
-                } `}
-              >
-                <Image
-                  src={getImagePath("/images/logo/logo-bintuneo-.png")}
-                  alt="logo"
-                  width={140}
-                  height={30}
-                  className="w-full dark:hidden"
-                />
-                <Image
-                  src={getImagePath("/images/logo/logo-dark.png")}
-                  alt="logo"
-                  width={140}
-                  height={30}
-                  className="hidden w-full dark:block"
-                />
-              </Link>
+            <Link
+              href="/"
+              className={`header-logo block w-full font-bold tracking-wider uppercase transition-all duration-300 ${
+                sticky ? "py-5 lg:py-2 text-xl" : "py-8 text-2xl"
+              }`}
+            >
+              <span className="text-black dark:text-white">
+                Acer<span className="text-primary">Pro</span>
+              </span>
+            </Link>
             </div>
             <div className="flex w-full items-center justify-between px-4">
               <div>

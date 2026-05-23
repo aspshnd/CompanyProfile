@@ -4,63 +4,63 @@ import Contact from "@/components/Contact";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Hubungi Bintuneo | Fotografi, EO, Videografi & Produk Lokal Bintuni",
+  title: "Hubungi Kami – PT Acer Pro Multi Kreasi | Kontak & Layanan Kemitraan",
   description:
-    "Hubungi Bintuneo untuk pemesanan jasa Fotografi, Videografi, Wedding Organizer (WO), Event Organizer (EO), serta produk komoditas Teluk Bintuni seperti pala, buah merah, sirup, selai, bubuk pala, dan stik buah merah. Siap melayani Papua Barat, khususnya Bintuni.",
+    "Hubungi PT Acer Pro Multi Kreasi untuk konsultasi, pemesanan layanan, dan kemitraan strategis di Papua Barat. Respons cepat untuk Event Management, Creative Media, Business Support, Jasa Konstruksi, dan Sports Development.",
   keywords: [
-    "Kontak Bintuneo",
-    "Hubungi Bintuneo",
-    "Kontak Fotografer Bintuni",
+    "Hubungi PT Acer Pro Multi Kreasi",
+    "Kontak Acer Pro Bintuni",
+    "Alamat PT Acer Pro Multi Kreasi",
+    "WhatsApp Acer Pro Bintuni",
+    "Email Resmi Acer Pro",
     "Kontak Event Organizer Bintuni",
-    "Videografer Papua Barat",
-    "Wedding Organizer Bintuni",
-    "Fotografer Bintuni",
-    "Videografer Bintuni",
-    "Pala Bintuni",
-    "Buah Merah Bintuni",
-    "UMKM Teluk Bintuni",
-    "Produk lokal Papua Barat",
-    "Minyak Buah Merah Papua Barat",
-    "Bintuneo Media"
+    "Jasa Dokumentasi Papua Barat",
+    "Bintuneo Media Kontak",
+    "Kemitraan Bisnis Teluk Bintuni",
+    "Kontraktor Bintuni Kontak",
+    "Layanan Korporat Papua Barat"
   ],
   openGraph: {
-    title: "Hubungi Bintuneo — Layanan Foto, Video, EO & Produk Lokal Bintuni",
+    title: "Hubungi Kami – PT Acer Pro Multi Kreasi | Kontak & Layanan Kemitraan",
     description:
-      "Terhubung dengan tim Bintuneo untuk konsultasi dan pemesanan jasa dokumentasi acara serta produk komoditas unggulan Bintuni. Respons cepat melalui WhatsApp.",
-    url: "https://bintuneo.id/contact",
+      "Terhubung dengan tim profesional PT Acer Pro Multi Kreasi untuk solusi multi-sektor dan manajemen event di tanah Papua. Respons cepat melalui kontak resmi kami.",
+    url: "https://acerpro.id/contact", // Domain disesuaikan ke website utama
     type: "website",
     images: [
       {
-        url: "/images/logo-b.jpg",
-        width: 800,
-        height: 800,
-        alt: "Hubungi Bintuneo",
+        url: "/images/acerpro-logo.png",
+        width: 1200,
+        height: 630,
+        alt: "Hubungi PT Acer Pro Multi Kreasi",
       },
     ],
     locale: "id_ID",
   },
   robots: { index: true, follow: true },
-  icons: { icon: "/images/logo-b.jpg" },
+  icons: { icon: "/images/acerpro-logo.png" },
   other: {
     "script:ld+json": JSON.stringify({
       "@context": "https://schema.org",
       "@type": "Organization",
-      "@id": "https://bintuneo.id/#organization",
-      "name": "Bintuneo",
-      "alternateName": "Bintuneo Media & Acerpro Event Organizer",
-      "url": "https://bintuneo.id",
-      "logo": "https://bintuneo.id/images/logo-b.jpg",
+      "@id": "https://acerpro.id/#organization",
+      "name": "PT Acer Pro Multi Kreasi",
+      "alternateName": "Acer Pro Event Management & Bintuneo Media",
+      "url": "https://acerpro.id",
+      "logo": "https://acerpro.id/images/acerpro-logo.png",
       "description":
-        "Layanan fotografer, videografer, Event Organizer & pemasaran produk lokal Papua Barat seperti Pala, Buah Merah dan Minyak Buah Merah.",
+        "Hubungi kami untuk kolaborasi dan penyediaan jasa profesional di bidang event management, layanan kreatif, business support, konstruksi, dan pengembangan olahraga di Papua Barat.",
       "address": {
         "@type": "PostalAddress",
         "addressLocality": "Teluk Bintuni",
         "addressRegion": "Papua Barat",
         "addressCountry": "ID"
       },
-      "areaServed": "Papua Barat",
+      "areaServed": [
+        "Papua Barat",
+        "Papua"
+      ],
       "sameAs": [
-        "https://www.instagram.com/bintuneo"
+        "https://www.instagram.com/acerpro.id"
       ]
     })
   }

@@ -19,8 +19,14 @@ const menuData: Menu[] = [
     path: "/blog",
     newTab: false,
   },
-  {
+    {
     id: 3,
+    title: "Informasi & Legalitas Perusahaan",
+    path: "/information",
+    newTab: false,
+  },
+  {
+    id: 4,
     title: "Pusat Bantuan",
     path: "/contact",
     newTab: false,

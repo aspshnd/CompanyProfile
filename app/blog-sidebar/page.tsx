@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   title: "Blog Details Page",
   description: "This is Blog Details Page",
   icons: {
-    icon: '/images/logo b.jpg', 
+    icon: '/images/acerpro-logo.png', 
   },
 };
 

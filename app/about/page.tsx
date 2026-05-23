@@ -3,38 +3,33 @@ import Breadcrumb from "@/components/Common/Breadcrumb";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Tentang Bintuneo – Media Produksi Foto/Video & Pengembangan Produk Lokal Bintuni",
+  title: "Tentang Kami – PT Acer Pro Multi Kreasi | Solusi Multi-Sektor & Event Management",
   description:
-    "Profil Bintuneo sebagai penyedia layanan Foto & Videografi profesional, Event Organizer (EO), serta pengembangan komoditas unggulan Bintuni seperti Pala, Buah Merah, dan Minyak Buah Merah.",
+    "Profil resmi PT Acer Pro Multi Kreasi. Tumbuh sejak 2008, kami menghadirkan layanan profesional terintegrasi di Papua Barat: Event Management, Creative Media, Business Support, Jasa Konstruksi, hingga Sports Development.",
   keywords: [
-    "Bintuneo",
+    "Tentang PT Acer Pro Multi Kreasi",
+    "Profil Acer Pro",
     "Bintuneo Media",
-    "Acerpro",
-    "Papua Barat",
-    "Kabupaten Teluk Bintuni",
-    "Fotografer Bintuni",
-    "Videografer Bintuni",
-    "Event Organizer Bintuni",
+    "Acer Pro Event Management",
+    "Sejarah Acer Pro",
+    "Perusahaan Multi-Sektor Papua Barat",
+    "Event Organizer Teluk Bintuni",
     "EO Papua Barat",
-    "Dokumentasi Event Papua Barat",
-    "Konten Kreatif Papua",
-    "Buah Pala Bintuni",
-    "Pala Papua Barat",
-    "Buah Merah Papua Barat",
-    "Minyak Buah Merah Bintuni",
-    "UMKM Papua Barat",
-    "Produk Lokal Bintuni"
+    "Jasa Dokumentasi Bintuni",
+    "Creative Agency Papua Barat",
+    "Business Support Services Bintuni",
+    "Kontraktor Konstruksi Bintuni",
+    "Sports Development Papua"
   ],
   icons: {
-    icon: "/images/logo-b.jpg",
+    icon: "/images/acerpro-logo.png",
   },
   openGraph: {
-    title:
-      "Tentang Bintuneo – Jasa Foto/Video Profesional, EO & Komoditas Lokal Bintuni",
+    title: "Tentang Kami – PT Acer Pro Multi Kreasi | Solusi Multi-Sektor & Event Management",
     description:
-      "Kenali perjalanan Bintuneo dalam pengembangan industri kreatif dan komoditas lokal Papua Barat melalui layanan produksi visual dan penyediaan komoditas unggulan.",
-    url: "https://bintuneo.id/about",
-    images: "/images/logo-b.jpg",
+      "Kenali perjalanan transformasi PT Acer Pro Multi Kreasi sejak tahun 2008 dalam membangun ekosistem industri kreatif, layanan bisnis, konstruksi, dan olahraga di tanah Papua.",
+    url: "https://acerpro.id/about", 
+    images: "/images/acerpro-logo.png", 
     type: "website",
   },
   robots: {
@@ -45,22 +40,25 @@ export const metadata: Metadata = {
     "script:ld+json": JSON.stringify({
       "@context": "https://schema.org",
       "@type": "Organization",
-      "@id": "https://bintuneo.id/#organization",
-      "name": "Bintuneo",
-      "alternateName": "Bintuneo Media & Acerpro Event Organizer",
-      "url": "https://bintuneo.id",
-      "logo": "https://bintuneo.id/images/logo-b.jpg",
+      "@id": "https://acerpro.id/#organization",
+      "name": "PT Acer Pro Multi Kreasi",
+      "alternateName": "Acer Pro Event Management & Bintuneo Media",
+      "url": "https://acerpro.id",
+      "logo": "https://acerpro.id/images/acerpro-logo.png",
       "description":
-        "Layanan fotografer, videografer, Event Organizer & pemasaran produk lokal Papua Barat seperti Pala, Buah Merah dan Minyak Buah Merah.",
+        "Perusahaan multi-sektor terpercaya di Papua Barat yang bergerak di bidang layanan kreatif, event management, business support services, konstruksi, dan pengembangan olahraga.",
       "address": {
         "@type": "PostalAddress",
         "addressLocality": "Teluk Bintuni",
         "addressRegion": "Papua Barat",
         "addressCountry": "ID"
       },
-      "areaServed": "Papua Barat",
+      "areaServed": [
+        "Papua Barat",
+        "Papua"
+      ],
       "sameAs": [
-        "https://www.instagram.com/bintuneo"
+        "https://www.instagram.com/acerpro.id",
       ]
     })
   }
@@ -72,7 +70,26 @@ const AboutPage = () => {
     <>
       <Breadcrumb
         pageName="Tentang Kami"
-        description="Bintuneo berdiri sebagai ruang kreatif dan produksi visual yang mendukung geliat ekonomi kreatif serta pengembangan komoditas di Teluk Bintuni. Selain menyediakan jasa foto dan videografi profesional untuk event, produk, hingga dokumentasi kegiatan, Bintuneo juga berperan dalam memperkenalkan komoditas unggulan daerah seperti pala dan buah merah yang menjadi identitas lokal Papua Barat. Melalui produksi konten dan branding, kami membantu UMKM Bintuni meningkatkan daya saing di pasar digital."
+        description={
+          <span className="block text-base font-medium leading-relaxed text-body-color dark:text-body-color-dark text-justify">
+            {/* Gunakan span block sebagai pengganti p paragraf 1 */}
+            <span className="block mb-6">
+              <b>PT Acer Pro Multi Kreasi</b> berawal dari sebuah inisiatif kreatif bernama <b>Acer Pro</b>, yang didirikan pada tahun 2008 di Serui, Kabupaten Kepulauan Yapen, Provinsi Papua. Acer Pro lahir dari semangat kolaborasi anak muda kreatif yang digagas oleh Rifaldhi Kwando, Arief N.H., Wadex, bersama rekan-rekan lainnya, sebagai wadah untuk berkarya, membangun komunitas, serta menghadirkan berbagai kegiatan kreatif dan sosial yang memberikan dampak positif bagi masyarakat.
+            </span>
+            <span className="block mb-6">
+              Dalam perjalanannya, Acer Pro terus berkembang mengikuti dinamika kebutuhan pasar dan peluang usaha yang semakin luas. Pada tahun 2019, Acer Pro memperluas aktivitasnya dengan memindahkan basis operasional ke Kabupaten Teluk Bintuni, Papua Barat, sebagai langkah strategis untuk menjangkau peluang baru dalam bidang <i>event</i>, layanan kreatif, pengembangan komunitas, dan dukungan operasional bisnis.
+            </span>
+            {/* Gunakan span block sebagai pengganti p paragraf 2 */}
+            <span className="block mb-6">
+              Memasuki tahun 2023, Acer Pro mulai melakukan transformasi menjadi organisasi yang lebih profesional, dengan pendekatan kerja yang lebih terstruktur, berorientasi hasil, dan siap menjawab kebutuhan kerja sama dengan berbagai pihak, baik sektor pemerintah, swasta, komunitas, maupun institusi lainnya.
+            </span>
+
+            {/* Gunakan span block sebagai pengganti p paragraf 3 */}
+            <span className="block">
+              Sebagai bentuk komitmen terhadap profesionalisme, tata kelola usaha yang lebih baik, serta kebutuhan legalitas untuk pengembangan bisnis jangka panjang, pada tahun 2026 resmi didirikan <b>PT Acer Pro Multi Kreasi</b> sebagai badan hukum perusahaan. Saat ini, PT Acer Pro Multi Kreasi hadir sebagai perusahaan multi-sektor yang berfokus pada layanan kreatif, <i>event management, business support services</i>, konstruksi, serta pengembangan olahraga.
+            </span>
+          </span>
+        }
       />
       <AboutSectionOne content={aboutContent}/>
       {/* <AboutSectionTwo content={aboutContent}/> */}
@@ -82,35 +99,60 @@ const AboutPage = () => {
 
 // Data konten yang direkomendasikan untuk digunakan dalam AboutSectionOne dan AboutSectionTwo
 const aboutContent = {
-  // 1. Pengantar Identitas Bintuneo Group
+// 1. Pengantar Identitas Perusahaan
   introduction:
-    "Bintuneo Group adalah sebuah entitas yang unik, didirikan dengan tujuan mengintegrasikan potensi lokal Papua Barat dengan penyediaan jasa profesional berstandar tinggi. Kami bersemangat untuk mengangkat nilai komoditas unggulan daerah sekaligus memastikan kualitas eksekusi terbaik dalam setiap proyek yang kami tangani.",
-
+    "PT Acer Pro Multi Kreasi adalah perusahaan multi-sektor yang didirikan dengan tujuan mengintegrasikan potensi kreativitas di tanah Papua dengan penyediaan jasa profesional berstandar tinggi. Berawal dari inisiatif kreatif sejak tahun 2008, kami berkomitmen menghadirkan eksekusi terbaik, manajemen terstruktur, serta solusi inovatif yang berdampak positif dalam setiap proyek dan layanan yang kami tangani.",
   // 2. Visi dan Misi
-  vision: "Menjadi penyedia solusi terintegrasi terdepan di Papua Barat yang dikenal karena kualitas produk komoditas dan standar profesionalisme jasa.",
+  vision: "Menjadi perusahaan multi-sektor terpercaya yang menghadirkan solusi kreatif, profesional, dan berdampak nyata bagi pembangunan bisnis, komunitas, dan masyarakat.",
   mission: [
-    "Mendukung pengembangan dan distribusi komoditas lokal (Pala, Buah Merah) dengan jaminan mutu dan keaslian.",
-    "Menyediakan jasa Event Organizer (EO) dan Dokumentasi Visual dengan perencanaan presisi dan eksekusi yang mulus.",
-    "Membangun kemitraan jangka panjang berdasarkan kepercayaan dan hasil yang konkret.",
+    "Menyediakan layanan berkualitas dengan standar profesional dan berorientasi hasil.",
+    "Menjadi mitra strategis bagi pemerintah, perusahaan, komunitas, dan institusi.",
+    "Mengembangkan solusi kreatif, operasional, dan bisnis yang inovatif serta adaptif.",
+    "Mendukung pengembangan ekonomi lokal, komunitas, dan ekosistem usaha yang berkelanjutan.",
+    "Membangun kolaborasi yang kuat untuk menciptakan dampak nyata bagi masyarakat.",
   ],
 
-  // 3. Pilar Bisnis
-  pillars: [
+  advantages: [
     {
-      title: "Acerpro (Event Organizer)",
-      description:
-        "Acerpro adalah divisi Event Organizer kami yang fokus pada eksekusi acara berskala besar. Spesialisasi kami mencakup konser, gathering publik, dan event olahraga ekstrem (seperti gastrack). Kami menjamin kelancaran logistik dan pelaksanaan acara yang sempurna tanpa kendala.",
+    title: "Multi-sector Integrated Services",
+    description: "Satu perusahaan dengan layanan lintas sektor yang terintegrasi."
     },
     {
-      title: "Komoditas (Pala & Buah Merah)",
-      description:
-        "Kami berdedikasi pada penyediaan komoditas bahan baku unggulan. Produk utama kami meliputi Buah Merah Mentah, Pala, dan produk turunannya. Kami memastikan setiap komoditas memiliki mutu tertinggi, keaslian dari Papua, dan pasokan yang stabil untuk kebutuhan industri.",
+    title: "Strong Local Understanding",
+    description: "Memiliki pemahaman kuat terhadap karakter pasar dan kebutuhan daerah Papua."
     },
     {
-      title: "Bintuneo Media (Visual Media)",
-      description:
-        "Bintuneo Media berfokus pada Visual Sinematik. Kami menyediakan layanan fotografer dan videografer profesional untuk dokumentasi proyek bisnis, liputan acara spesial, dan kebutuhan visual pribadi, dengan komitmen pada kualitas storytelling dan standar sinematik tinggi.",
+    title: "Professional & Adaptive",
+    description: "Mengutamakan profesionalisme, fleksibilitas, dan solusi yang sesuai kebutuhan klien."
     },
+    {
+    title: "Strategic Collaboration",
+    description: "Siap menjadi mitra strategis bagi pemerintah, swasta, komunitas, dan organisasi."
+    },
+    {
+    title: "Creative & Execution Oriented",
+    description: "Tidak hanya menghadirkan ide, tetapi juga eksekusi nyata yang terukur."
+    }
+  ],
+
+  portfolioItems: [
+    "Event komunitas",
+    "Program kepemudaan",
+    "Sports event",
+    "Aktivasi kreatif",
+    "Dukungan operasional kegiatan",
+    "Kolaborasi komunitas"
+  ],
+
+  targetItems: [
+    "Pemerintah & Instansi Publik",
+    "BUMN / BUMD",
+    "Perusahaan Swasta",
+    "Organisasi & Lembaga",
+    "Komunitas",
+    "Institusi Pendidikan",
+    "Sektor Olahraga",
+    "Mitra Proyek & Kontraktor"
   ],
 };
 

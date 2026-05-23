@@ -1,65 +1,114 @@
 import { Feature } from "@/types/feature";
-import { IoCalendarOutline, IoPeopleOutline, IoCameraOutline } from "react-icons/io5";
+import { IoCalendarOutline, IoShieldCheckmarkOutline, IoBriefcaseOutline, IoCreateOutline, IoConstructOutline, IoTrophyOutline } from "react-icons/io5";
 import { FaCarrot, FaLemon, FaTint } from "react-icons/fa";
 import { GiCorn, GiWheat, GiGrain, GiFarmTractor } from "react-icons/gi";
 
 
 const featuresData: Feature[] = [
 
-  // --- KARTU 1: EVENT MANAGEMENT (EO) ---
+  // --- KARTU 1: EVENT MANAGEMENT ---
   {
     id: 1,
     icon: (
       <IoCalendarOutline size={40} className="fill-current" />
     ),
-    title: "Event Organizer (EO)",
+    title: "Event Management & Special Event Organizer",
     paragraph:
-      "Tim EO profesional kami mengelola semua kebutuhan acara berskala besar, konferensi, festival, dan gathering. Didukung oleh Acerpro, kami menjamin kualitas pelaksanaan yang optimal dan dukungan teknis menyeluruh, memastikan kesuksesan setiap event Anda.",
+      "PT Acer Pro Multi Kreasi menyediakan layanan perencanaan, pengelolaan, dan pelaksanaan event secara profesional.",
+    listItems: [
+      "Event Pemerintahan",
+      "Festival",
+      "Product Launching",
+      "Seminar & Workshop",
+      "Tournament",
+      "Activation Progam",
+      "Corporate Event",
+      "Community Event",
+      "Private Event",
+      "Gethering",
+      "Sport Event",
+      "Entertainment Event",
+    ],
   },
   {
     id: 2,
     icon: (
-      <IoPeopleOutline size={40} className="fill-current" />
+      <IoCreateOutline size={40} className="fill-current" />
     ),
-    title: "Eksekusi Acara & Dukungan Teknis (Acerpro)",
+    title: "Creative & Media Services",
     paragraph:
-      "Tim Acerpro adalah divisi spesialis kami yang fokus pada kelancaran operasional dan dukungan teknis menyeluruh. Kami mengelola logistik, memastikan setup yang presisi, dan eksekusi acara yang efisien.",
+      "Layanan kreatif untuk kebutuhan branding dan komunikasi.",
+    listItems: [
+      "Graphic Design",
+      "Social Media Management",
+      "Photography & Videography",
+      "Creative Campaign",
+      "Branding & Identity",
+      "Content Creation",
+      "Digital Promotion",
+    ],
   },
   {
     id: 3,
     icon: (
-      <IoCameraOutline size={40} className="fill-current" />
+      <IoBriefcaseOutline size={40} className="fill-current" />
     ),
-    title: "Dokumentasi Visual - Bintuneo Media",
+    title: "Business Support Services",
     paragraph:
-      "Bintuneo Media mengubah event Anda menjadi kenangan sinematik yang tak terlupakan. Kami menyediakan layanan foto dan video dengan sentuhan visual yang unik dan memukau.",
+      "Layanan penunjang kebutuhan operasional bisnis.",
+    listItems: [
+      "Administrative Support",
+      "Project Support",
+      "Photography & Videography",
+      "Business Assistance",
+      "Operational Support",
+      "Manpower Support",
+    ],
   },
   {
     id: 4,
     icon: (
-      <FaLemon size={40} className="fill-current" />
+      <IoShieldCheckmarkOutline size={40} className="fill-current" />
     ),
-    title: "Komoditas Buah Pala Asli Papua",
+    title: "Facility Support Services",
     paragraph:
-      "Kami menyediakan Buah Pala terbaik, siap untuk ekspor atau diproses oleh industri Anda. Kami jamin kesegaran dan kemurnian komoditas dari Bintuni.",
+      "Layanan penunjang fasilitas perusahaan/institusi.",
+    listItems: [
+      "Cleaning Services",
+      "Facility Support",
+      "General Maintenance",
+      "Utility Support",
+    ],
   },
   {
     id: 5,
     icon: (
-      <GiCorn size={40} className="fill-current" />
+      <IoConstructOutline size={40} className="fill-current" />
     ),
-    title: "Komoditas Buah Merah Asli Papua",
+    title: "Construction Services",
     paragraph:
-      "Bahan baku utama untuk Minyak Buah Merah dan produk nutrisi. Komoditas mentah segar dari Papua ini dijamin asli dan memiliki kandungan alami yang optimal.",
+      "Layanan konstruksi dan dukungan infrastruktur.",
+    listItems: [
+      "Konstruksi Bangunan Sipil Jalan",
+      "Pemeliharaan Infrastruktur",
+      "Project Support Construction",
+    ],
   },
   {
     id: 6,
     icon: (
-      <FaTint size={40} className="fill-current" />
+      <IoTrophyOutline size={40} className="fill-current" />
     ),
-    title: "Minyak Buah Merah Asli Papua",
+    title: "Sports Development",
     paragraph:
-      "Komoditas Buah Merah mentah ini adalah bahan baku utama yang terbukti efektif digunakan oleh produsen untuk proses ekstraksi Minyak Buah Merah.",
+      "Layanan pengembangan olahraga dan kegiatan kepemudaan.",
+    listItems: [
+      "Tournament Organizer",
+      "Club Management",
+      "Football Development",
+      "Sports Activation",
+      "Youth Development Program",
+    ],
   },
 ];
 export default featuresData;

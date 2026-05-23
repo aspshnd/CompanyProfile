@@ -15,16 +15,11 @@ const Hero = () => {
                 data-wow-delay=".2s"
               >
                 <h1 className="mb-5 text-3xl font-bold leading-tight text-black dark:text-white sm:text-4xl sm:leading-tight md:text-5xl md:leading-tight">
-                  Bintuni Excellence — Solusi Event Profesional & Produk Lokal Berkualitas
+                  PT Acer Pro Multi Kreasi — Solusi Kreatif & Event Profesional di Papua Barat 
                 </h1>
-                <p className="mb-12 text-base !leading-relaxed text-body-color dark:text-body-color-dark sm:text-lg md:text-xl text-justify">
-                  Bintuneo hadir sebagai penyedia layanan terpadu untuk kebutuhan acara dan pengembangan produk lokal.
-                  Melalui layanan Event Organizer by <b>Acerpro</b>, Bintuneo membantu merancang dan menjalankan event secara 
-                  profesional dari awal hingga akhir. Bintuneo menyediakan layanan Fotografer & Videografer by <b>Bintuneo Media</b> untuk dokumentasi berkualitas tinggi yang siap mendukung kebutuhan visual acara maupun Konten promosi.
+                <p className="mb-8 text-base !leading-relaxed text-body-color dark:text-body-color-dark sm:text-lg md:text-xl text-justify">
+                  Bertumbuh sejak 2008 dari Serui hingga menetap di Teluk Bintuni, <b>PT Acer Pro Multi Kreasi</b> kini hadir sebagai perusahaan multi-sektor yang berfokus pada layanan profesional berskala luas. 
                   <br /><br />
-                  Selain itu, Bintuneo juga menghadirkan <b>produk unggulan Bintuni</b> berupa pala, buah merah, 
-                  dan minyak buah merah — sumber alami penuh manfaat yang kami dorong untuk dikenal lebih luas 
-                  dan menjadi kebanggaan daerah.
                 </p>
               </div>
             </div>

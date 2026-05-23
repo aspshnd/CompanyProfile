@@ -1,14 +1,33 @@
 import { getImagePath } from "@/lib/utils";
 import SectionTitle from "../Common/SectionTitle";
+import { IoCheckmark } from "react-icons/io5";
 
 interface AboutContentProps {
   content: {
     introduction: string;
     vision: string;
     mission: string[];
-    pillars: { title: string; description: string }[];
+    advantages: { title: string; description: string }[];
   };
 }
+
+const portfolioItems = [
+  "Event komunitas",
+  "Program kepemudaan",
+  "Sports event",
+  "Aktivasi kreatif",
+  "Dukungan operasional kegiatan",
+  "Kolaborasi komunitas",
+];
+
+const targetItems = [
+  "Event komunitas",
+  "Program kepemudaan",
+  "Sports event",
+  "Aktivasi kreatif",
+  "Dukungan operasional kegiatan",
+  "Kolaborasi komunitas",
+];
 
 const checkIcon = (
   <svg width="16" height="13" viewBox="0 0 16 13" className="fill-current">
@@ -41,21 +60,58 @@ const AboutSectionOne = ({ content }: AboutContentProps) => {
             ))}
           </div>
 
-                  {/* PILARS / 3 CARD GRID */}
-          <div className="w-full px-4 grid grid-cols-1 md:grid-cols-3 gap-6 text-justify">
-            {content.pillars.map((pillar, idx) => (
-              <div
-                key={idx}
-                className="p-6 border rounded-lg shadow-sm hover:shadow-md transition"
-              >
-                <h4 className="text-lg font-bold text-primary mb-3">
-                  {pillar.title}
-                </h4>
-                <p className="text-body-color">{pillar.description}</p>
-              </div>
-            ))}
+         {/* Kelebihan Perusahaan */}
+          <div className="w-full px-2 max-w-3xl text-justify mb-12">
+            <h3 className="text-xl font-bold text-primary mb-6">Kelebihan Perusahaan</h3>
+            
+            <div className="space-y-6">
+              {content.advantages.map((item, idx) => (
+                <div key={idx} className="flex items-start">
+                  
+                  <span className="mr-4 flex h-[30px] w-[30px] flex-shrink-0 items-center justify-center rounded-md bg-primary bg-opacity-10 text-primary mt-[2px]">
+                    {checkIcon}
+                  </span>
+                  
+                  {/* Blok Teks Utama (Judul atas & Deskripsi bawah) */}
+                  <div className="flex-1">
+                    <h4 className="text-lg font-medium text-body-color dark:text-body-color-dark mt-1.5 leading-relaxed">
+                      {item.title}
+                    </h4>
+                    <p className="text-lg font-medium text-body-color dark:text-body-color-dark mt-1.5 leading-relaxed">
+                      {item.description}
+                    </p>
+                  </div>
+
+                </div>
+              ))}
+            </div>
           </div>
 
+          {/* Portofolio & Pengalamaan */}
+          <div className="w-full px-2 max-w-3xl text-justify mb-12">
+            <h3 className="text-xl font-bold text-primary mb-3">Portofolio & Pengalaman</h3>
+
+            <p className="text-base font-medium leading-relaxed text-body-color dark:text-body-color-dark mb-5 text-justify">
+              <b>PT Acer Pro Multi Kreasi</b> memiliki pengalaman matang dalam mendukung berbagai kegiatan
+              komunitas, <i>event</i> skala kecil hingga besar, program kreatif, serta pengembangan aktivitas
+              sosial maupun olahraga di wilayah operasional kami.
+            </p>
+
+              {portfolioItems.map((item, idx) => (
+            <List key={idx} text={item} />
+          ))}
+          </div>
+
+          {/* Target Market*/}
+          <div className="w-full px-2 max-w-3xl text-justify mb-12">
+            <h3 className="text-xl font-bold text-primary mb-3">Target Market</h3>
+            <p className="text-base font-medium leading-relaxed text-body-color dark:text-body-color-dark mb-5 text-justify">
+              Kami melayani berbagai segmen pasar yang luas dan bervariasi, meliputi:
+            </p>
+              {targetItems.map((item, idx) => (
+            <List key={idx} text={item} />
+          ))}
+          </div>
       </div>
     </section>
   );

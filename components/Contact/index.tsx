@@ -1,7 +1,7 @@
 "use client";
 
 const Contact = () => {
-  const PHONE_NUMBER = "6281357351025"; 
+  const PHONE_NUMBER = "6282199006464"; 
 
   const handleSubmit = (e: any) => {
     e.preventDefault();
@@ -17,20 +17,12 @@ const Contact = () => {
   };
 
   return (
-    <section id="contact" className="overflow-hidden py-16 md:py-20 lg:py-28">
+    <section id="contact" className="overflow-hidden pt-0 pb-16 md:pb-20 lg:pb-28">
       <div className="container">
         <div className="-mx-4 flex flex-wrap">
           <div className="w-full px-4 lg:w-7/12 xl:w-8/12">
             <div className="wow fadeInUp shadow-three dark:bg-gray-dark mb-12 rounded-sm bg-white px-8 py-11 sm:p-[55px] lg:mb-5 lg:px-8 xl:p-[55px]"
                  data-wow-delay=".15s">
-
-              <h2 className="mb-3 text-3xl font-bold text-black dark:text-white">
-                Hubungi Kami
-              </h2>
-              <p className="mb-12 text-base font-medium text-body-color text-justify">
-                Kami terbuka untuk kritik, saran, serta peluang kerja sama dalam pengembangan layanan dan kolaborasi bisnis.  
-                Silakan hubungi kami melalui formulir atau WhatsApp. Masukan Anda sangat berarti bagi perkembangan kami.
-              </p>
 
               <form onSubmit={handleSubmit}>
                 <div className="-mx-4 flex flex-wrap">
@@ -80,7 +72,7 @@ const Contact = () => {
                         name="message"
                         required
                         rows={5}
-                        placeholder="Tulis kritik, saran, atau ide kerja sama Anda di sini"
+                        placeholder="Tulis pesan anda"
                         className="w-full resize-none rounded-sm border bg-[#f8f8f8] dark:bg-[#2C303B] px-6 py-3 text-base focus:border-primary outline-none"
                       ></textarea>
                     </div>

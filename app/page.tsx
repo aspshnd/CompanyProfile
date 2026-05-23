@@ -9,53 +9,48 @@ import { Metadata } from "next";
 
 export const metadata: Metadata = {
   title:
-    "Bintuneo – Fotografer & Videografer Profesional, Event Organizer (EO) & Produk Lokal Papua Barat",
+    "PT Acer Pro Multi Kreasi – Layanan Kreatif, Event Management & Solusi Multi-Sektor",
   description:
-    "Bintuneo menyediakan layanan fotografer dan videografer profesional, Event Organizer (EO), serta memasarkan komoditas unggulan Teluk Bintuni seperti Pala, Buah Merah & Minyak Buah Merah. Platform dokumentasi event dan pusat informasi produk lokal Papua Barat.",
+    "PT Acer Pro Multi Kreasi menghadirkan solusi profesional terpadu di Papua Barat melalui Acer Pro Event Management, layanan dokumentasi visual Bintuneo Media, business support services, hingga konstruksi.",
   keywords: [
+    "PT Acer Pro Multi Kreasi",
+    "Acer Pro",
+    "Acerpro Event Management",
+    "Bintuneo Media",
+    "Event Organizer Bintuni",
+    "EO Papua Barat",
+    "Jasa EO Bintuni",
     "Fotografer Bintuni",
     "Videografer Bintuni",
     "Jasa Foto Bintuni",
     "Dokumentasi Event Papua Barat",
-    "Event Organizer Bintuni",
-    "EO Papua Barat",
-    "WO Bintuni",
-    "Wedding Organizer Bintuni",
-    "Produk Lokal Bintuni",
-    "Buah Merah Bintuni",
-    "Buah Merah Papua Barat",
-    "Minyak Buah Merah",
-    "Minyak Buah Merah Bintuni",
-    "Minyak Buah Merah Papua Barat",
-    "Buah Pala Bintuni",
-    "Buah Pala Papua Barat",
-    "UMKM Teluk Bintuni",
-    "Bintuneo Media",
-    "Acerpro EO",
-    "Bintuni Papua Barat",
-    "Komoditas Papua Barat",
-    "Fotografi Videografi Papua Barat"
+    "Business Support Services Papua",
+    "Kontraktor Teluk Bintuni",
+    "Jasa Konstruksi Bintuni",
+    "Pengembangan Komunitas Papua",
+    "Teluk Bintuni",
+    "Papua Barat"
   ],
 
   openGraph: {
     title:
-      "Bintuneo – Dokumentasi Foto/Video, Event Organizer & Produk Lokal Teluk Bintuni",
+      "PT Acer Pro Multi Kreasi – Solusi Kreatif & Event Management Profesional",
     description:
-      "Layanan lengkap untuk kebutuhan visual profesional, penyelenggaraan event, dan pemasaran produk lokal Papua Barat. Eksplorasi dokumentasi, komoditas, serta portofolio Bintuneo.",
-    url: "https://bintuneo.id",
+      "Mitra strategis Anda untuk event management terstruktur, layanan dokumentasi visual kreatif, dukungan operasional bisnis, dan solusi multi-sektor di tanah Papua.",
+    url: "https://acerpro.id",
     type: "website",
     locale: "id_ID",
     images: [
       {
-        url: "/images/logo-b.jpg",
+        url: "/images/acerpro-logo.png",
         width: 1200,
         height: 630,
-        alt: "Bintuneo – Media, EO & Produk Lokal",
+        alt: "PT Acer Pro Multi Kreasi",
       },
     ],
   },
 
-  icons: { icon: "/images/logo-b.jpg" },
+  icons: { icon: "/images/acerpro-logo.png" },
 
   robots: { index: true, follow: true },
 
@@ -63,28 +58,29 @@ export const metadata: Metadata = {
     "script:ld+json": JSON.stringify({
       "@context": "https://schema.org",
       "@type": "Organization",
-      "@id": "https://bintuneo.id/#organization",
-      "name": "Bintuneo",
-      "alternateName": "Bintuneo Media & Acerpro Event Organizer",
-      "url": "https://bintuneo.id",
-      "logo": "https://bintuneo.id/images/logo-b.jpg",
+      "@id": "https://acerpro.id/#organization",
+      "name": "PT Acer Pro Multi Kreasi",
+      "alternateName": "Acer Pro Event Management & Bintuneo Media",
+      "url": "https://acerpro.id",
+      "logo": "https://acerpro.id/images/logo/acerpro-logo.png",
       "description":
-        "Layanan fotografer, videografer, Event Organizer & pemasaran produk lokal Papua Barat seperti Pala, Buah Merah dan Minyak Buah Merah.",
+        "Perusahaan multi-sektor di Papua Barat yang berfokus pada layanan kreatif, event management, business support services, konstruksi, dan pengembangan olahraga.",
       "address": {
         "@type": "PostalAddress",
         "addressLocality": "Teluk Bintuni",
         "addressRegion": "Papua Barat",
         "addressCountry": "ID"
       },
-      "areaServed": "Papua Barat",
+      "areaServed": [
+        "Papua Barat",
+        "Papua"
+      ],
       "sameAs": [
-        "https://www.instagram.com/bintuneo"
+        "https://www.instagram.com/acerpro.id"
       ]
     })
   }
 };
-
-
 
 export default function Home() {
   return (
@@ -93,7 +89,6 @@ export default function Home() {
       <Hero />
       <Features />
       <Blog />
-      <Contact />
     </>
   );
 }

@@ -1,7 +1,5 @@
 "use client";
 import { FaInstagram, FaTwitter, FaYoutube } from "react-icons/fa";
-import { getImagePath } from "@/lib/utils";
-import Image from "next/image";
 import Link from "next/link";
 
 const Footer = () => {
@@ -15,45 +13,31 @@ const Footer = () => {
           <div className="-mx-4 flex flex-wrap">
             <div className="w-full px-4 md:w-1/2 lg:w-7/12 xl:w-7/12">
               <div className="mb-10 lg:mb-16">
-                <Link href="/" className="mb-3 inline-block">
-                  <Image
-                    src={getImagePath("/images/logo/logo-bintuneo-.png")}
-                    alt="logo"
-                    className="dark:hidden"
-                    width={110}
-                    height={25}
-                  />
-                  <Image
-                    src={getImagePath("/images/logo/logo-dark.png")}
-                    alt="logo"
-                    className="hidden dark:block"
-                    width={110}
-                    height={25}
-                  />
+                
+                <Link 
+                  href="/" 
+                  className="mb-4 inline-block font-bold tracking-wider uppercase text-xl"
+                >
+                  <span className="text-black dark:text-white">
+                    Acer<span className="text-primary">Pro</span>
+                  </span>
                 </Link>
+                
+                {/* Deskripsi yang Disesuaikan dengan Sejarah */}
                 <p className="mb-9 text-base leading-relaxed text-body-color dark:text-body-color-dark text-justify">
-                  <b>Bintuneo</b> menyediakan layanan Fotografi, Videografi, dan Event Organizer yang dikemas secara profesional. 
-                  Kami juga menghadirkan produk lokal unggulan seperti buah pala, buah merah, dan minyak buah merah. 
-                  Bersama kami, dukung kemajuan kreativitas dan potensi lokal Bintuni.
+                  <b>PT Acer Pro Multi Kreasi</b> adalah perusahaan multi-sektor yang bergerak di bidang layanan kreatif, 
+                  <i> event management</i>, hingga <i>business support services</i>. Berawal dari komunitas kreatif sejak 2008, 
+                  kami terus bertransformasi untuk menghadirkan solusi profesional terstruktur dan berdampak positif bagi masyarakat.
                 </p>
                 <div className="flex items-center">
                   <a
-                    href="https://www.instagram.com/bintuneo?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
+                    href="https://www.instagram.com/acerpro.id?igsh=cjdpZTAzaWt3MnFz"
                     aria-label="Instagram"
                     className="mr-6 text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
                       <FaInstagram size={22} className="fill-current" />
-                  </a>
-                  <a
-                    href="#"
-                    aria-label="Twiter"
-                    className="mr-6 text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                      <FaTwitter size={22} className="fill-current" />
                   </a>
                   <a
                     href="#"
@@ -71,8 +55,9 @@ const Footer = () => {
 
           <div className="h-px w-full bg-gradient-to-r from-transparent via-[#D2D8E183] to-transparent dark:via-[#959CB183]"></div>
           <div className="py-8">
+            {/* Nama Hak Cipta Diperbarui */}
             <p className="text-center text-base text-body-color dark:text-white">
-                &copy; {new Date().getFullYear()} Bintuneo. Semua hak cipta dilindungi undang-undang.
+                &copy; {new Date().getFullYear()} PT Acer Pro Multi Kreasi. Semua hak cipta dilindungi undang-undang.
             </p>
           </div>
         </div>

@@ -5,76 +5,76 @@ import { Metadata } from "next";
 
 export const metadata: Metadata = {
   title:
-    "Layanan & Produk – Bintuneo | Foto & Video Profesional, EO, Produk Lokal Bintuni",
+    "Produk & Jasa – PT Acer Pro Multi Kreasi",
   description:
-    "Temukan layanan fotografi, videografi, Event Organizer (EO), serta komoditas unggulan Teluk Bintuni seperti Pala, Buah Merah, dan Minyak Buah Merah dalam satu platform.",
+    "Eksplorasi solusi profesional terintegrasi kami di Papua Barat: Event Management, Creative & Media Services, Business & Facility Support, Jasa Konstruksi, hingga Sports Development.",
   keywords: [
-    "Layanan Fotografi Bintuni",
-    "Videografer Bintuni",
-    "Jasa Dokumentasi Papua Barat",
+    "Layanan PT Acer Pro Multi Kreasi",
+    "Sektor Bisnis Acer Pro",
+    "Acer Pro Event Management",
+    "Bintuneo Media",
     "Event Organizer Bintuni",
     "EO Papua Barat",
-    "Foto Video Bintuni",
-    "Branding Visual Papua",
-    "Buah Pala Bintuni",
-    "Pala Papua Barat",
-    "Buah Merah Bintuni",
-    "Minyak Buah Merah Bintuni",
-    "Produk Lokal Bintuni",
-    "UMKM Papua Barat",
-    "Bintuneo Media",
-    "Acerpro",
-    "Bintuneo"
+    "Jasa Dokumentasi Papua Barat",
+    "Fotografi Videografi Bintuni",
+    "Business Support Services Bintuni",
+    "Facility Support Services Papua",
+    "Kontraktor Bangunan Bintuni",
+    "Jasa Konstruksi Papua Barat",
+    "Tournament Organizer Bintuni",
+    "Sports Development Papua",
+    "Solusi Korporat Teluk Bintuni"
   ],
 
-  authors: [{ name: "Bintuneo" }],
+  authors: [{ name: "PT Acer Pro Multi Kreasi" }],
 
   openGraph: {
     title:
-      "Layanan & Produk Bintuneo – Foto, Video, EO & Komoditas Lokal Bintuni",
+      "Produk & Jasa – PT Acer Pro Multi Kreasi | Layanan Kreatif, Event Management & Solusi Multi-Sektor",
     description:
       "Lihat layanan profesional kami dalam fotografi, videografi, Event Organizer (EO) hingga produk komoditas unggulan Bintuni. Dokumentasi visual kreatif dan produk lokal berkualitas ada di sini.",
-    url: "https://bintuneo.id/blog",
+    url: "https://acerpro.id/blog",
     type: "website",
     images: [
       {
-        url: "/images/logo-b.jpg",
+        url: "/images/acerpro-logo.png",
         width: 1200,
         height: 630,
-        alt: "Bintuneo Portfolio & Produk"
+        alt: "AcerPro Portfolio & Produk"
       }
     ],
   },
 
-  icons: { icon: "/images/logo-b.jpg" },
+  icons: { icon: "/images/acerpro-logo.png" },
 
   robots: { index: true, follow: true },
   other: {
     "script:ld+json": JSON.stringify({
       "@context": "https://schema.org",
       "@type": "Organization",
-      "@id": "https://bintuneo.id/#organization",
-      "name": "Bintuneo",
-      "alternateName": "Bintuneo Media & Acerpro Event Organizer",
-      "url": "https://bintuneo.id",
-      "logo": "https://bintuneo.id/images/logo-b.jpg",
+      "@id": "https://acerpro.id/#organization",
+      "name": "PT Acer Pro Multi Kreasi",
+      "alternateName": "Acer Pro Event Management & Bintuneo Media",
+      "url": "https://acerpro.id",
+      "logo": "https://acerpro.id/images/acerpro-logo.png",
       "description":
-        "Layanan fotografer, videografer, Event Organizer & pemasaran produk lokal Papua Barat seperti Pala, Buah Merah dan Minyak Buah Merah.",
+        "Perusahaan multi-sektor di Papua Barat yang berfokus pada layanan kreatif, event management, business support services, konstruksi, dan pengembangan olahraga.",
       "address": {
         "@type": "PostalAddress",
         "addressLocality": "Teluk Bintuni",
         "addressRegion": "Papua Barat",
         "addressCountry": "ID"
       },
-      "areaServed": "Papua Barat",
+      "areaServed": [
+        "Papua Barat",
+        "Papua"
+      ],
       "sameAs": [
-        "https://www.instagram.com/bintuneo"
+        "https://www.instagram.com/acerpro.id"
       ]
     })
   }
 };
-
-
 
 const Blog = () => {
   return (
