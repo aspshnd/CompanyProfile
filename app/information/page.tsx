@@ -114,7 +114,7 @@ const InformationPage = () => {
                       Tagline
                     </td>
                     <td className="px-4 py-3.5 text-base font-medium italic text-body-color dark:text-body-color-dark">
-                      "{content.tagline}"
+                      {content.tagline}
                     </td>
                   </tr>
 
