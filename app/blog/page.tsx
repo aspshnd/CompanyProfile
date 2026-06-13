@@ -4,6 +4,9 @@ import Breadcrumb from "@/components/Common/Breadcrumb";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
+
+  metadataBase: new URL("https://www.acerpro08.com"),
+
   title:
     "Produk & Jasa – PT Acer Pro Multi Kreasi",
   description:

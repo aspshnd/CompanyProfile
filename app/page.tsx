@@ -8,6 +8,9 @@ import Hero from "@/components/Hero";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
+  
+  metadataBase: new URL("https://www.acerpro08.com"),
+
   title:
     "PT Acer Pro Multi Kreasi – Layanan Kreatif, Event Management & Solusi Multi-Sektor",
   description:

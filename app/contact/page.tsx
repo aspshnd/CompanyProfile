@@ -4,6 +4,9 @@ import Contact from "@/components/Contact";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
+
+  metadataBase: new URL("https://www.acerpro08.com"),
+
   title: "Hubungi Kami – PT Acer Pro Multi Kreasi | Kontak & Layanan Kemitraan",
   description:
     "Hubungi PT Acer Pro Multi Kreasi untuk konsultasi, pemesanan layanan, dan kemitraan strategis di Papua Barat. Respons cepat untuk Event Management, Creative Media, Business Support, Jasa Konstruksi, dan Sports Development.",

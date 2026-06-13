@@ -3,6 +3,9 @@ import Link from "next/link";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
+
+  metadataBase: new URL("https://www.acerpro08.com"),
+
   title: "Error Page",
   description: "This is Error Page",
     icons: {

@@ -14,6 +14,9 @@ interface CompanyInfoProps {
 }
 
 export const metadata: Metadata = {
+
+  metadataBase: new URL("https://www.acerpro08.com"),
+
   title: "Informasi & Legalitas – PT Acer Pro Multi Kreasi",
   description:
     "Profil legalitas dan informasi resmi PT Acer Pro Multi Kreasi. Perusahaan multi-sektor di Papua Barat yang bergerak di bidang layanan kreatif, event management, business support, konstruksi, dan olahraga.",
