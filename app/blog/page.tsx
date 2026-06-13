@@ -46,8 +46,6 @@ export const metadata: Metadata = {
     ],
   },
 
-  icons: { icon: "/images/acerpro-logo.png" },
-
   robots: { index: true, follow: true },
   other: {
     "script:ld+json": JSON.stringify({

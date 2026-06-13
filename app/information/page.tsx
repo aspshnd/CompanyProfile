@@ -26,9 +26,6 @@ export const metadata: Metadata = {
     "Profil Acer Pro Bintuni",
     "Perusahaan Resmi Teluk Bintuni"
   ],
-  icons: {
-    icon: "/images/acerpro-logo.png",
-  },
   openGraph: {
     title: "Informasi & Legalitas – PT Acer Pro Multi Kreasi",
     description:

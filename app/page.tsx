@@ -53,8 +53,6 @@ export const metadata: Metadata = {
     ],
   },
 
-  icons: { icon: "/images/acerpro-logo.png" },
-
   robots: { index: true, follow: true },
 
   other: {

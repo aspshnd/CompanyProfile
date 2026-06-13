@@ -34,7 +34,6 @@ export const metadata: Metadata = {
     locale: "id_ID",
     type: "article"
   },
-  icons: { icon: "/images/logo-b.jpg" },
   robots: { index: true, follow: true },
   other: {
     "script:ld+json": JSON.stringify({

@@ -9,9 +9,6 @@ import { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Blog Details Page",
   description: "This is Blog Details Page",
-  icons: {
-    icon: '/images/acerpro-logo.png', 
-  },
 };
 
 const BlogSidebarPage = () => {

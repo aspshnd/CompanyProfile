@@ -38,7 +38,6 @@ export const metadata: Metadata = {
     locale: "id_ID",
   },
   robots: { index: true, follow: true },
-  icons: { icon: "/images/acerpro-logo.png" },
   other: {
     "script:ld+json": JSON.stringify({
       "@context": "https://schema.org",

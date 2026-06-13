@@ -22,9 +22,7 @@ export const metadata: Metadata = {
     "Kontraktor Konstruksi Bintuni",
     "Sports Development Papua"
   ],
-  icons: {
-    icon: "/images/acerpro-logo.png",
-  },
+
   openGraph: {
     title: "Tentang Kami – PT Acer Pro Multi Kreasi | Solusi Multi-Sektor & Event Management",
     description:
