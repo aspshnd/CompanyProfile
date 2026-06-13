@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     title: "Hubungi Kami – PT Acer Pro Multi Kreasi | Kontak & Layanan Kemitraan",
     description:
       "Terhubung dengan tim profesional PT Acer Pro Multi Kreasi untuk solusi multi-sektor dan manajemen event di tanah Papua. Respons cepat melalui kontak resmi kami.",
-    url: "https://acerpro08.com/contact", // Domain disesuaikan ke website utama
+    url: "https://www.acerpro08.com/contact", // Domain disesuaikan ke website utama
     type: "website",
     images: [
       {
@@ -42,11 +42,11 @@ export const metadata: Metadata = {
     "script:ld+json": JSON.stringify({
       "@context": "https://schema.org",
       "@type": "Organization",
-      "@id": "https://acerpro08.com/#organization",
+      "@id": "https://www.acerpro08.com/#organization",
       "name": "PT Acer Pro Multi Kreasi",
       "alternateName": "Acer Pro Event Management & Bintuneo Media",
-      "url": "https://acerpro08.com",
-      "logo": "https://acerpro08.com/images/acerpro-logo.png",
+      "url": "https://www.acerpro08.com",
+      "logo": "https://www.acerpro08.com/images/acerpro-logo.png",
       "description":
         "Hubungi kami untuk kolaborasi dan penyediaan jasa profesional di bidang event management, layanan kreatif, business support, konstruksi, dan pengembangan olahraga di Papua Barat.",
       "address": {
@@ -60,7 +60,7 @@ export const metadata: Metadata = {
         "Papua"
       ],
       "sameAs": [
-        "https://www.instagram.com/acerpro08.com"
+        "https://www.instagram.com/acerpro.id"
       ]
     })
   }

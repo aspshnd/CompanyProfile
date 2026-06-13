@@ -40,11 +40,11 @@ export const metadata: Metadata = {
     "script:ld+json": JSON.stringify({
       "@context": "https://schema.org",
       "@type": "Organization",
-      "@id": "https://acerpro08.com/#organization",
+      "@id": "https://www.acerpro08.com/#organization",
       "name": "Bintuneo",
       "alternateName": "Bintuneo Media & Acerpro Event Organizer",
-      "url": "https://acerpro08.com",
-      "logo": "https://acerpro08.com/images/logo-b.jpg",
+      "url": "https://www.acerpro08.com",
+      "logo": "https://www.acerpro08.com/images/logo-b.jpg",
       "description":
         "Layanan fotografer, videografer, Event Organizer & pemasaran produk lokal Papua Barat seperti Pala, Buah Merah dan Minyak Buah Merah.",
       "address": {

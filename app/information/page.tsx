@@ -32,7 +32,7 @@ export const metadata: Metadata = {
     title: "Informasi & Legalitas – PT Acer Pro Multi Kreasi",
     description:
       "Akses data legalitas, NIB, kode KBLI terdaftar, dan kontak resmi PT Acer Pro Multi Kreasi di Kabupaten Teluk Bintuni.",
-    url: "https://acerpro.id/information", 
+    url: "https://www.acerpro.id/information", 
     images: "/images/acerpro-logo.png", 
     type: "website",
   },
@@ -44,11 +44,11 @@ export const metadata: Metadata = {
     "script:ld+json": JSON.stringify({
       "@context": "https://schema.org",
       "@type": "Organization",
-      "@id": "https://acerpro.id/#organization",
+      "@id": "https://www.acerpro08.com/#organization",
       "name": "PT Acer Pro Multi Kreasi",
       "alternateName": "Acer Pro Event Management & Bintuneo Media",
-      "url": "https://acerpro.id",
-      "logo": "https://acerpro.id/images/acerpro-logo.png",
+      "url": "https://www.acerpro08.com",
+      "logo": "https://www.acerpro08.com/images/acerpro-logo.png",
       "description":
         "Perusahaan multi-sektor terpercaya di Papua Barat yang bergerak di bidang layanan kreatif, event management, business support services, konstruksi, dan pengembangan olahraga.",
       "address": {

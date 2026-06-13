@@ -33,7 +33,7 @@ export const metadata: Metadata = {
       "Produk & Jasa – PT Acer Pro Multi Kreasi | Layanan Kreatif, Event Management & Solusi Multi-Sektor",
     description:
       "Lihat layanan profesional kami dalam fotografi, videografi, Event Organizer (EO) hingga produk komoditas unggulan Bintuni. Dokumentasi visual kreatif dan produk lokal berkualitas ada di sini.",
-    url: "https://acerpro08.com/blog",
+    url: "https://www.acerpro08.com/blog",
     type: "website",
     images: [
       {
@@ -52,11 +52,11 @@ export const metadata: Metadata = {
     "script:ld+json": JSON.stringify({
       "@context": "https://schema.org",
       "@type": "Organization",
-      "@id": "https://acerpro08.com/#organization",
+      "@id": "https://www.acerpro08.com/#organization",
       "name": "PT Acer Pro Multi Kreasi",
       "alternateName": "Acer Pro Event Management & Bintuneo Media",
-      "url": "https://acerpro08.com",
-      "logo": "https://acerpro08.com/images/acerpro-logo.png",
+      "url": "https://www.acerpro08.com",
+      "logo": "https://www.acerpro08.com/images/acerpro-logo.png",
       "description":
         "Perusahaan multi-sektor di Papua Barat yang berfokus pada layanan kreatif, event management, business support services, konstruksi, dan pengembangan olahraga.",
       "address": {

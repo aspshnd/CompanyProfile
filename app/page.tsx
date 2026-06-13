@@ -37,7 +37,7 @@ export const metadata: Metadata = {
       "PT Acer Pro Multi Kreasi – Solusi Kreatif & Event Management Profesional",
     description:
       "Mitra strategis Anda untuk event management terstruktur, layanan dokumentasi visual kreatif, dukungan operasional bisnis, dan solusi multi-sektor di tanah Papua.",
-    url: "https://acerpro08.com",
+    url: "https://www.acerpro08.com",
     type: "website",
     locale: "id_ID",
     images: [
@@ -58,11 +58,11 @@ export const metadata: Metadata = {
     "script:ld+json": JSON.stringify({
       "@context": "https://schema.org",
       "@type": "Organization",
-      "@id": "https://acerpro08.com/#organization",
+      "@id": "https://www.acerpro08.com/#organization",
       "name": "PT Acer Pro Multi Kreasi",
       "alternateName": "Acer Pro Event Management & Bintuneo Media",
-      "url": "https://acerpro08.com",
-      "logo": "https://acerpro08.com/images/logo/acerpro-logo.png",
+      "url": "https://www.acerpro08.com",
+      "logo": "https://www.acerpro08.com/images/logo/acerpro-logo.png",
       "description":
         "Perusahaan multi-sektor di Papua Barat yang berfokus pada layanan kreatif, event management, business support services, konstruksi, dan pengembangan olahraga.",
       "address": {
