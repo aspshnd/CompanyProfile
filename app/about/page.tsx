@@ -4,8 +4,6 @@ import { Metadata } from "next";
 
 export const metadata: Metadata = {
 
-  metadataBase: new URL("https://www.acerpro08.com"),
-
   title: "Tentang Kami – PT Acer Pro Multi Kreasi | Solusi Multi-Sektor & Event Management",
   description:
     "Profil resmi PT Acer Pro Multi Kreasi. Tumbuh sejak 2008, kami menghadirkan layanan profesional terintegrasi di Papua Barat: Event Management, Creative Media, Business Support, Jasa Konstruksi, hingga Sports Development.",
