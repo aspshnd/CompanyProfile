@@ -28,7 +28,7 @@ export const metadata: Metadata = {
     title: "Tentang Kami – PT Acer Pro Multi Kreasi | Solusi Multi-Sektor & Event Management",
     description:
       "Kenali perjalanan transformasi PT Acer Pro Multi Kreasi sejak tahun 2008 dalam membangun ekosistem industri kreatif, layanan bisnis, konstruksi, dan olahraga di tanah Papua.",
-    url: "https://acerpro.id/about", 
+    url: "https://acerpro08.com/about", 
     images: "/images/acerpro-logo.png", 
     type: "website",
   },
@@ -40,11 +40,11 @@ export const metadata: Metadata = {
     "script:ld+json": JSON.stringify({
       "@context": "https://schema.org",
       "@type": "Organization",
-      "@id": "https://acerpro.id/#organization",
+      "@id": "https://acerpro08.com/#organization",
       "name": "PT Acer Pro Multi Kreasi",
       "alternateName": "Acer Pro Event Management & Bintuneo Media",
-      "url": "https://acerpro.id",
-      "logo": "https://acerpro.id/images/acerpro-logo.png",
+      "url": "https://acerpro08.com",
+      "logo": "https://acerpro08.com/images/acerpro-logo.png",
       "description":
         "Perusahaan multi-sektor terpercaya di Papua Barat yang bergerak di bidang layanan kreatif, event management, business support services, konstruksi, dan pengembangan olahraga.",
       "address": {

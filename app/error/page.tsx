@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "Error Page",
   description: "This is Error Page",
     icons: {
-    icon: '/images/logo b.jpg', 
+    icon: '/images/acerpro-logo.png', 
   },
 };
 
